@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Maven Pro',sans-serif;
+	font-weight: 400;
+}
+.container{
+	width: 1200px!important;
+	margin: auto;
+}
+.container .header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container .header .logo{
+	padding:10px 0;
+}
+.container .header .menu a{
+   text-decoration: none;
+}
+.container .header .menu ul li{
+	text-transform: uppercase;
+	display: inline-table;
+	padding: 0 15px;
+	font-size: 20px;
+}
+.container .header .menu span{
+	color: black;
+}
+.container .content{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.container .content .title{
+	width: 100%;
+	position: absolute;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+}
+.container .search-container{
+	width: 100%;
+	height: 75px;
+	background: #136ebf;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container .search-container .text{
+	width: 100%;
+	position: absolute;
+	color: white;
+	padding: 0 20px;
+}
+.container .search-container .search{
+	width: 27%;
+	position: absolute;
+	margin-left: 72%;
+}
+.container .search-container .search input{
+	width: 310px;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 35px;
+    font-family: inherit;
+    padding-left: 15px;
+    outline: 0;
+    position: relative;
+}
+.container .search-container .search button{
+	position: absolute;
+    right: 0;
+    cursor: pointer;
+    height: 35px;
+    width: 50px;
+    border: 0;
+    background: no-repeat;
+    font-size: 18px;
+    color: #3d195b;
+}	
+.container .row{
+	width: 100%;
+	margin:auto;
+}
+.title{
+	margin-bottom: 30px;
+}
+.row .title h3 a {
+  border-bottom: #136ebf solid 2px;
+  border-left: #136ebf solid 15px;
+  padding: 7px 10px;
+  font-size: 17px;
+  display: inline-block;
+  color: #353535;
+  text-decoration: none;
+}
+.container .row .content-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+.row .content-container .right-content{
+	padding: 35px 0;
+}
+.left-content{
+	width: 840px;
+}
+.left-content .product{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.left-content .product .item{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.left-content .product .item h2 a{
+	color: #353535;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 10px 0;
+}
+.left-content .product .item h2{
+	line-height: 10px;
+}
+.left-content .product .item .more a{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+.left-content .product .item h5{
+	font-weight: 600;
+}
+.left-content .product .item .more{
+	width: 100px;
+	background: #136ebf;
+	border: 1px solid #136ebf;
+	border-radius: 50px;
+	margin-left:75px;
+}
+.content-container .product .item img{
+   width: 260px;
+   height: 310px;
+}
+.right-container .product .item-3 img{
+	width: 300px;
+}
+.right-content .product .item-3{
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+.title h3 a{
+    border-bottom: #136ebf solid 2px;
+    border-left: #136ebf solid 15px;
+    padding: 7px 10px;
+    font-size: 17px;
+    display: inline-block;
+    color: #353535;
+}
+.product .item-2{
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.product .item-2 .more{
+	border: 1px solid #136ebf;
+	background: #136ebf;
+	width: 100px; 
+	border-radius: 50px;
+	text-align: center;
+}
+.product .item-2 .info{
+	font-weight: 600;
+	padding: 0 30px;
+}
+.product .item-2 .more a{
+	color: white;
+	text-decoration: none;
+}
+.item-2 .info h4 a{
+    text-decoration: none;
+    color: #353535;
+}
+.item-2 .info h5{
+	font-weight: 600;
+}
+.product .item-4{
+	display: flex;
+	margin-bottom: 30px;
+}
+.item-4 .info{
+	padding: 5px 30px;
+
+}
+.item-4 .info h4{
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 0px;
+	color: black;
+}
+.item-4 .info span{
+	color: #acacac;
+}
+.item-4 .info p{
+	padding: 30px 0;
+}
+.item-4 .info a{
+	text-decoration: none;
+}
+.container-fulid{
+	width: 100%;
+	margin: auto;
+}
+.container-fuild .footer{
+	background: #136ebf; 
+}
+.container-fuild .footer .container{
+	width: 1170px;
+	margin: auto;
+}
+.container .content{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.content .text{
+	color: #dfdfdf;
+	padding: 20px 0;
+	text-align: center;
+}
+.content .logo{
+	padding: 30px 0;
+}
